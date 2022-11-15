@@ -20,7 +20,7 @@ variable "security_group" {
 
 variable "tag_name" {
   description = "Tag Name of for Ec2 instance"
-  default     = "My-terraform-ec2-instance"
+  default     = "LTI-Bangalore"
 }
 
 variable "ami_id" {
