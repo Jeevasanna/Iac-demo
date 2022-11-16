@@ -4,7 +4,7 @@ resource "aws_instance" "myec2" {
   instance_type = "${var.instance_type}"
   subnet_id     = "${var.subnet_id}"
 
-  tags {
+  tags = {
     Name = "vijayanand-Terraform"
   }
 }
