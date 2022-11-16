@@ -1,4 +1,3 @@
-
 variable "ec2_count" {
   default = "1"
 }
@@ -10,3 +9,7 @@ variable "instance_type" {
 }
 
 variable "subnet_id" {}
+
+variable "az_name"{
+  default = "ap-south-1a"
+}
